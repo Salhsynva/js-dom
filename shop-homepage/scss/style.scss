@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    .container{
+        .row{
+            .product-card-box{
+                .card{
+                    position: relative;
+                    .card-badge{
+                        position: absolute;
+                        top: 8px;
+                        right: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+p{
+    color: white;
+}
